@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+#nav-top {
+    display: flex;
+    height: 48px;
+    justify-content: space-between;
+    margin: 58px auto 0 auto;
+    width: 1110px;
+}
+
+.brand-logo {
+    align-items: center;
+    display: flex;
+    line-height: 22px;
+    font-weight: 500;
+    font-size: 23px;
+    height: 40px;
+    justify-content: center;
+    width: 112px;
+}
+
+.brand-logo:before {
+    background-color: #FF7235;
+    border-radius: 50%;
+    color: #fff;
+    content: "x";
+    font-weight: 700;
+    font-size: 24px;
+    height: 40px;
+    width: 40px;
+    padding: 8px 14px;
+}
+.brand-logo:after {
+    color: #292830;
+    content: "pense";
+    padding-left: 12px;
+}
+
+ul#navbar {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    margin-top: 11px;
+}
+
+ul#navbar li {
+    display: list-item;
+}
+
+ul#navbar li a {
+    color: #292830;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    text-decoration: none;
+}
+
+section {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    height: 100vh;
+    justify-content: center;
+}
+
+section.hero {
+    height: calc(100vh - 220px);
+    margin-top: 114px;
+}
+
+section .text {
+    height: auto;
+    width: 540px;
+}
+
+section img {
+    height: auto;
+    width: 540px;
+}
+
+section .text h1 {
+    color: #292830;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 96px;
+}
+section .text p {
+    color: #BDBDBD;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    padding: 20px 0;
+}
+
+section .text p button {
+    background-color: #FF7235;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 24px;
+    padding: 18px 24px;
+}
+
+section.product .product-image {
+    background-color: #FF7235;
+    height: 85vh;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+
+section.product .product-image img {
+    height: auto;
+    margin-top: 88px;
+    width: 1110px;
+}
+
+section.product ul.brands {
+    display: flex;
+    list-style-type: none;
+    height: 15vh;
+    justify-content: space-between;
+    width: 100%;
+
+    background-color: red;
+}
+
+section p.upper {
+    text-transform: uppercase;
+    padding-bottom: 80px;
+}
+
+section .heading {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+section .heading h1 {
+    max-width: 730px;
+}
+
+section .heading p {
+    max-width: 350px;
+}
+
+section a {
+    color: #FF7235;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+section a.btn-simple:after {
+    content: "\2192";
+    padding-left: 16px;
+}
+
+button {
+    cursor: pointer;
+}
+
+button.white-btn {
+    background: #fff;
+    border: 1px solid #FF7235;
+    border-radius: 8px;
+    color: #FF7235;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    padding: 0 22px;
+}
+
+
+
+/*
+
+
+
+section .text p button {
+    background-color: #FF7235;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 24px;
+    padding: 18px 24px;
+}
+
+section.product .image {
+    background-color: #FF7235;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 90vh;
+    width: 100vw;
+}
+
+section.product .image img {
+    height: 789px;
+    margin-top: 90px;
+    width: 1110px;
+}
+
+section.product ul.brands {
+    display: flex;
+    list-style-type: none;    
+    justify-content: space-between;
+    width: 100%;
+}
+
+section.product ul.brands img {
+    height: auto;
+    width: 50%;
+}
+*/
