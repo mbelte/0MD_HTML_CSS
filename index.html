@@ -4,143 +4,727 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <title>0MD: Landing Page</title>
 </head>
 <body>
-    <div id="nav-top">
 
-        <div class="brand-logo"></div>
-
-        <nav>
-            <ul id="navbar">
-                <li><a href="#">Features</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Feedback</a></li>
-            </ul>
-        </nav>
-        <button class="white-btn">Request a demo</button>
-    </div>
-
-    <section class="hero">
-        <div class="text">
-            <h1>
-                Track your Expenses to Save Money
-            </h1>
-            <p>
-                Helps you to organize your income and expenses
-            </p>
-            <p>
+    <header class="header">
+        <div class="header-container">
+            <div class="header-logo">
+                <div class="logo"></div>
+            </div>
+            <div class="header-nav">
+                <nav class="nav-main">
+                    <a href="#">Features</a>
+                    <a href="#">About us</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Feedback</a>
+                </nav>
+            </div>
+            <div class="header-cta">
                 <button>
-                    Try free demo
+                    Request a demo
                 </button>
-
-                — Web, iOs and Android
-            </p>
-        </div>
-        <div class="image">
-            <img src="img/hero.png" alt="Illustration">
-        </div>
-    </section>
-
-    <section class="product">
-
-        <div class="product-image">
-            <img src="img/product.png" alt="Product image">
-        </div>
-<!--
-        <ul class="brands">
-            <li>
-                <img src="img/brand-facebook.png" alt="Facebook">
-            </li>
-            <li>
-                <img src="img/brand-google.png" alt="Google">
-            </li>
-            <li>
-                <img src="img/brand-coca-cola.png" alt="Coca-Cola">
-            </li>
-            <li>
-                <img src="img/brand-linkedin.png" alt="LinkedIn">
-            </li>
-            <li>
-                <img src="img/brand-samsung.png" alt="Samsung">
-            </li>
-        </ul>
--->
-    </section>
-
-    <section class="feature1">
-        <div class="text">
-            <p class="upper">
-                Alwalys online
-            </p>
-            <h1>
-                Real-time support with cloud
-            </h1>
-            <p>
-                Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.
-            </p>
-
-            <a href="#" class="btn-simple">Learn more</a>
-
-        </div>
-        <div class="image">
-            <img src="img/feature-1.png" alt="Illustration">
-        </div>
-    </section>
-
-    <section class="feature2">
-
-        <div class="image">
-            <img src="img/feature-2.png" alt="Illustration">
-        </div>
-
-        <div class="text">
-            <p class="upper">
-                free some cost
-            </p>
-            <h1>
-                Save cost for you and family
-            </h1>
-            <p>
-                Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.
-            </p>
+            </div>
             
-            <a href="#" class="btn-simple">Learn more</a>
+        </div>
+    </header>
 
+    <section class="hero-section">
+        <div class="container-row">
+            <div class="hero-text">
+
+                <div class="section-heading-wrap">
+                    <h1 class="hero-heading">
+                        Track your Expenses to Save Money
+                    </h1>
+                </div>
+
+                <span>
+                    Helps you to organize your income and expenses
+                </span>
+
+                <div class="hero-lnk-wrap">
+                    <a class="hero-lnk" href="#">
+                        <span>
+                            Try free demo
+                        </span>
+                        <span>
+                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4 9.5L12 17.5L20 9.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                                
+                        </span>
+                    </a>
+
+                    <span>
+                        — Web, iOs and Android
+                    </span>
+                </div>
+            </div>
+
+            <div class="hero-img-lg">
+                <img src="img/hero.png" alt="Hero">
+            </div>
         </div>
     </section>
 
-    <section class="feature3">
-        <div class="text">
-            <p class="upper">
-                Use anytime
-            </p>
-            <h1>
-                Use anytime when you need
-            </h1>
-            <p>
-                Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.
-            </p>
-
-            <a href="#" class="btn-simple">Learn more</a>
-
+    <section class="promo-section">
+        <div class="promo-header-container">
+            <div class="promo-header">
+                <img src="img/promo.png" alt="Promo">
+            </div>
         </div>
-        <div class="image">
-            <img src="img/feature-3.png" alt="Illustration">
+
+        <div class="promo-main-container">
+            <div class="promo-main">
+                
+                <div class="promo-fb">
+                    <img src="img/facebook.png" alt="">
+                </div>
+                <div class="promo-google">
+                    <img src="img/google.png" alt="">
+                </div>
+                <div class="promo-coca-cola">
+                    <img src="img/coca-cola.png" alt="">
+                </div>
+                <div class="promo-linkedin">
+                    <img src="img/linkedin.png" alt="">
+                </div>
+                <div class="promo-samsung">
+                    <img src="img/samsung.png" alt="">
+                </div>
+
+            </div>
         </div>
     </section>
 
-    <section class="product-features">
-        <div class="heading">
-            <h1>
-                The Product we work with.
-            </h1>
-            <p>
-                Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget ut.
-            </p>
+    <section class="feature-section">
+        <div class="container-row">
+            <div class="section-text">
+                <span class="section-capital">
+                    Alwalys online
+                </span>
+
+                <div class="section-heading-wrap">
+                    <h2 class="section-heading">
+                        Real-time support with cloud
+                    </h2>
+                </div>
+
+                <p>
+                    Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. 
+                    Enim ipsum, amet quis ullamcorper eget ut.
+                </p>
+                <div class="section-lnk-wrap">
+                    <a class="arrow-lnk" href="#">
+                        <span>
+                            Learn more
+                        </span>
+                        <span class="arrow arrow-bar is-right"></span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="section-img-lg">
+                <img src="img/feature-1.png" alt="feature-1">
+            </div>
         </div>
     </section>
+
+    <section class="feature-section">
+        <div class="container-row row-reverse">
+            <div class="section-text">
+                <span class="section-capital">
+                    free some cost
+                </span>
+
+                <div class="section-heading-wrap">
+                    <h2 class="section-heading">
+                        Save cost for you and family
+                    </h2>
+                </div>
+
+                <p>
+                    Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. 
+                    Enim ipsum, amet quis ullamcorper eget ut.
+                </p>
+                <div class="section-lnk-wrap">
+                    <a class="arrow-lnk" href="#">
+                        <span>
+                            Learn more
+                        </span>
+                        <span class="arrow arrow-bar is-right"></span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="section-img-lg">
+                <img src="img/feature-2.png" alt="feature-1">
+            </div>
+        </div>
+    </section>
+
+    <section class="feature-section">
+        <div class="container-row">
+            <div class="section-text">
+                <span class="section-capital">
+                    Use anytime
+                </span>
+
+                <div class="section-heading-wrap">
+                    <h2 class="section-heading">
+                        Use anytime when you need
+                    </h2>
+                </div>
+
+                <p>
+                    Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. 
+                    Enim ipsum, amet quis ullamcorper eget ut.
+                </p>
+                <div class="section-lnk-wrap">
+                    <a class="arrow-lnk" href="#">
+                        <span>
+                            Learn more
+                        </span>
+                        <span class="arrow arrow-bar is-right"></span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="section-img-lg">
+                <img src="img/feature-3.png" alt="feature-1">
+            </div>
+        </div>
+    </section>
+
+    <section class="products-features-section">
+        
+        <div class="products-container">
+            <div class="products-features-header">
+                <div class="products-features-heading">
+                    <h2 class="section-heading">
+                        The Product we work with.
+                    </h2>
+                </div>
+
+                <p class="header-description">
+                    Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget ut.
+                </p>
+            </div>
+        </div>
+
+        
+        <div class="products-container">
+            <div class="products-cards-container">
+
+            <!--    1st card    -->
+                <div class="product-card">
+                    <div class="card-icon-wrap">
+                        <div class="card-icon-bg yellow">
+                            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4 6H22V4H4C2.9 4 2 4.9 2 6V17H0V20H14V17H4V6ZM23 8H17C16.45 8 16 8.45 16 9V19C16 19.55 16.45 20 17 20H23C23.55 20 24 19.55 24 19V9C24 8.45 23.55 8 23 8ZM22 17H18V10H22V17Z" fill="#FFBD74"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="card-heading-wrap">
+                        <h4 class="card-heading">
+                            Cross platform
+                        </h4>
+                    </div>
+                    <div class="card-description-wrap">
+                        <span class="card-description">
+                            Elit esse cillum dolore eu fugiat nulla pariatur
+                        </span>
+                    </div>
+                    <a href="#" class="card-arrow">&rarr;</a>
+                </div>
+
+            <!--    2nd card    -->
+                <div class="product-card">
+                    <div class="card-icon-wrap">
+                        <div class="card-icon-bg pink">
+                            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_21_10)">
+                                    <path d="M19.35 10.04C19.0141 8.33772 18.0976 6.80486 16.7571 5.70325C15.4165 4.60163 13.7351 3.99961 12 4C9.11 4 6.6 5.64 5.35 8.04C3.88023 8.19883 2.52101 8.89521 1.53349 9.99532C0.545971 11.0954 -0.000171702 12.5217 4.04928e-08 14C4.04928e-08 17.31 2.69 20 6 20H19C21.76 20 24 17.76 24 15C24 12.36 21.95 10.22 19.35 10.04ZM19 18H6C3.79 18 2 16.21 2 14C2 11.79 3.79 10 6 10H6.71C7.37 7.69 9.48 6 12 6C15.04 6 17.5 8.46 17.5 11.5V12H19C20.66 12 22 13.34 22 15C22 16.66 20.66 18 19 18Z" fill="#E2598B"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_21_10">
+                                        <rect width="24" height="24" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="card-heading-wrap">
+                        <h4 class="card-heading">
+                            Cloud server
+                        </h4>
+                    </div>
+                    <div class="card-description-wrap">
+                        <span class="card-description">
+                            Elit esse cillum dolore eu fugiat nulla pariatur
+                        </span>
+                    </div>
+                    <a href="#" class="card-arrow">&rarr;</a>
+                </div>
+
+            <!--    3rd card    -->
+                <div class="product-card">
+                    <div class="card-icon-wrap">
+                        <div class="card-icon-bg blue">
+                            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 4.14V2H14V4H10V2H7V4.14C5.28 4.59 4 6.14 4 8V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V8C20 6.14 18.72 4.59 17 4.14ZM18 20H6V8C6 6.9 6.9 6 8 6H16C17.1 6 18 6.9 18 8V20ZM16.5 12V16H14.5V14H7.5V12H16.5Z" fill="#4D12EE"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="card-heading-wrap">
+                        <h4 class="card-heading">
+                            Pure Javascript
+                        </h4>
+                    </div>
+                    <div class="card-description-wrap">
+                        <span class="card-description">
+                            Elit esse cillum dolore eu fugiat nulla pariatur
+                        </span>
+                    </div>
+                    <a href="#" class="card-arrow">&rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="subscription-selection-section">
+        <div class="container">
+            <div class="subscription-selection-header">
+                <h3 class="subscription-selection-heading">
+                    Choose your flexible plan.
+                </h3>
+            </div>
+
+            <div class="subscription-plans-list">
+                <div class="subscription-plan">
+                    <div class="subscription-plan-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 6H17V4C17 2.89 16.11 2 15 2H9C7.89 2 7 2.89 7 4V6H4C2.89 6 2 6.89 2 8V19C2 20.11 2.89 21 4 21H20C21.11 21 22 20.11 22 19V8C22 6.89 21.11 6 20 6ZM9 4H15V6H9V4ZM20 19H4V17H20V19ZM20 14H4V8H7V10H9V8H15V10H17V8H20V14Z" fill="#3EC1F3"/>
+                        </svg>
+                    </div>
+
+                    <div class="subscription-heading">
+                        <h4 class="subscription-name">
+                            Starter Plan
+                        </h4>
+                    </div>
+
+                    <div class="features-list-wrap">
+                        <ul class="features-list">
+                            <li>
+                                Store unlimited data
+                            </li>
+                            <li>
+                                Export to pdf, xls, csv
+                            </li>
+                            <li>
+                                Cloud server support
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-wrap">
+                        <h5 class="plan-price">
+                            $9.99/
+                            <span class="plan-period">
+                                year
+                            </span>
+                        </h5>
+                        <span class="plan-conditions">
+                            up to 3 user + 1.99 per user
+                        </span>
+                    </div>
+
+                    <div class="btn-wrap">
+                        <a href="#" class="btn-white-arrow">
+                            <span>
+                                Get this
+                            </span>
+                            <span>
+                                <svg width="16" height="8" viewBox="0 0 16 8" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.01 3H0V5H12.01V8L16 4L12.01 0V3Z" fill="#FF7235"/>
+                                </svg>                                
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="subscription-plan">
+                    <div class="subscription-plan-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 6.00004H17.82C17.93 5.69004 18 5.35004 18 5.00004C18.0011 4.35486 17.7939 3.72657 17.4092 3.20863C17.0245 2.69069 16.4829 2.31077 15.8649 2.12538C15.2469 1.93999 14.5856 1.95903 13.9794 2.17969C13.3731 2.40034 12.8542 2.81081 12.5 3.35004L12 4.02004L11.5 3.34004C10.96 2.54004 10.05 2.00004 9 2.00004C7.34 2.00004 6 3.34004 6 5.00004C6 5.35004 6.07 5.69004 6.18 6.00004H4C2.89 6.00004 2.01 6.89004 2.01 8.00004L2 19C2 20.11 2.89 21 4 21H20C21.11 21 22 20.11 22 19V8.00004C22 6.89004 21.11 6.00004 20 6.00004ZM15 4.00004C15.55 4.00004 16 4.45004 16 5.00004C16 5.55004 15.55 6.00004 15 6.00004C14.45 6.00004 14 5.55004 14 5.00004C14 4.45004 14.45 4.00004 15 4.00004ZM9 4.00004C9.55 4.00004 10 4.45004 10 5.00004C10 5.55004 9.55 6.00004 9 6.00004C8.45 6.00004 8 5.55004 8 5.00004C8 4.45004 8.45 4.00004 9 4.00004ZM20 19H4V17H20V19ZM20 14H4V8.00004H9.08L7 10.83L8.62 12L12 7.40004L15.38 12L17 10.83L14.92 8.00004H20V14Z" fill="#FF7235"/>
+                        </svg>                            
+                    </div>
+
+                    <div class="subscription-heading">
+                        <h4 class="subscription-name">
+                            Sliver Plan
+                        </h4>
+                    </div>
+
+                    <div class="features-list-wrap">
+                        <ul class="features-list">
+                            <li>
+                                Store unlimited data
+                            </li>
+                            <li>
+                                Export to pdf, xls, csv
+                            </li>
+                            <li>
+                                Cloud server support
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-wrap">
+                        <h5 class="plan-price">
+                            $19.99/
+                            <span class="plan-period">
+                                year
+                            </span>
+                        </h5>
+                        <span class="plan-conditions">
+                            up to 3 user + 1.99 per user
+                        </span>
+                    </div>
+
+                    <div class="btn-wrap">
+                        <a href="#" class="btn-white-arrow">
+                            <span>
+                                Get this
+                            </span>
+                            <span>
+                                <svg width="16" height="8" viewBox="0 0 16 8" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.01 3H0V5H12.01V8L16 4L12.01 0V3Z" fill="#FF7235"/>
+                                </svg>                                
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="subscription-plan">
+                    <div class="subscription-plan-icon">
+                        <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18 0H2C0.89 0 0 0.89 0 2V13C0 14.11 0.89 15 2 15H6V20L10 18L14 20V15H18C19.11 15 20 14.11 20 13V2C20 0.89 19.11 0 18 0ZM18 13H2V11H18V13ZM18 8H2V3C2 2.45 2.45 2 3 2H17C17.55 2 18 2.45 18 3V8Z" fill="#4D12EE"/>
+                        </svg>                            
+                    </div>
+
+                    <div class="subscription-heading">
+                        <h4 class="subscription-name">
+                            Diamond Plan
+                        </h4>
+                    </div>
+
+                    <div class="features-list-wrap">
+                        <ul class="features-list">
+                            <li>
+                                Store unlimited data
+                            </li>
+                            <li>
+                                Export to pdf, xls, csv
+                            </li>
+                            <li>
+                                Cloud server support
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-wrap">
+                        <h5 class="plan-price">
+                            $29.99/
+                            <span class="plan-period">
+                                year
+                            </span>
+                        </h5>
+                        <span class="plan-conditions">
+                            up to 3 user + 1.99 per user
+                        </span>
+                    </div>
+
+                    <div class="btn-wrap">
+                        <a href="#" class="btn-white-arrow">
+                            <span>
+                                Get this
+                            </span>
+                            <span>
+                                <svg width="16" height="8" viewBox="0 0 16 8" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.01 3H0V5H12.01V8L16 4L12.01 0V3Z" fill="#FF7235"/>
+                                </svg>                                
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-section">
+        <div class="testimonial-header-wrap">
+            <div class="testimonial-header">
+                <h2 class="section-heading">
+                    We have millions of best wishers
+                </h2>
+            </div>
+        </div>
+
+        <div class="testimonials-carousel">
+
+            <div class="testimonials-item">
+                <div class="border-orange"></div>
+
+                <div class="testimonial">
+                    <p>
+                        Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. 
+                        Vel, fringilla sit eros pretium felis massa mauris, aliquam congue.
+                    </p>
+                    <div class="testimonial-profile">
+                        <img src="img/profile1.png" alt="Profile image">
+                        <span class="profile-name">
+                            Cameron Williamson,
+                        </span>
+                        <span>
+                            CEO
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonials-item">
+                <div class="border-cyan"></div>
+
+                <div class="testimonial">
+                    <p>
+                        Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. 
+                        Vel, fringilla sit eros pretium felis massa mauris, aliquam congue.
+                    </p>
+                    <div class="testimonial-profile">
+                        <img src="img/profile2.png" alt="Profile image">
+                        <span class="profile-name">
+                            Cameron Williamson,
+                        </span>
+                        <span>
+                            CEO
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonials-item">
+                <div class="border-blue"></div>
+
+                <div class="testimonial">
+                    <p>
+                        Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. 
+                        Vel, fringilla sit eros pretium felis massa mauris, aliquam congue.
+                    </p>
+                    <div class="testimonial-profile">
+                        <img src="img/profile3.png" alt="Profile image">
+                        <span class="profile-name">
+                            Cameron Williamson,
+                        </span>
+                        <span>
+                            CEO
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonials-item">
+                <div class="border-yellow"></div>
+
+                <div class="testimonial">
+                    <p>
+                        Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. 
+                        Vel, fringilla sit eros pretium felis massa mauris, aliquam congue.
+                    </p>
+                    <div class="testimonial-profile">
+                        <img src="img/profile4.png" alt="Profile image">
+                        <span class="profile-name">
+                            Cameron Williamson,
+                        </span>
+                        <span>
+                            CEO
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonials-item">
+                <div class="border-brown"></div>
+
+                <div class="testimonial">
+                    <p>
+                        Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. 
+                        Vel, fringilla sit eros pretium felis massa mauris, aliquam congue.
+                    </p>
+                    <div class="testimonial-profile">
+                        <img src="img/profile2.png" alt="Profile image">
+                        <span class="profile-name">
+                            Cameron Williamson,
+                        </span>
+                        <span>
+                            CEO
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="carousel-slider-wrap">
+            <div class="carousel-slider">
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#" class="current"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="banner-section">
+        <div class="banner-header-wrap">
+            <div class="banner-header">
+                <h3 class="banner-heading">
+                    20M+ downloaded from 32 diffrent countires
+                </h3>
+                <h4>
+                    Try demo for 7 days with full features.
+                </h4>
+            </div>
+        </div>
+
+        <div class="banner-footer-wrap">
+            <div class="footer-img">
+                <img src="img/layer10.png" alt="">
+            </div>
+
+            <div class="button-wrap">
+                <a href="#" class="btn-white">
+                    <span>
+                        Try free demo
+                    </span>
+                    <span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 9L12 17L20 9" stroke="#FF7235" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>                            
+                    </span>
+                </a>
+            </div>
+
+            <div class="footer-img">
+                <img src="img/layer4.png" alt="">
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="container">
+            <div class="footer-top">
+
+                <div class="footer-logo">
+                    <div class="logo"></div>
+                </div>
+
+                <div class="footer-topleft">
+                    <div class="footer-top-section">
+                        <h5 class="footer-heading">
+                            Links
+                        </h5>
+                        <ul class="links-list">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-top-section">
+                        <h5 class="footer-heading">
+                            Legal
+                        </h5>
+                        <ul class="links-list">
+                            <li><a href="#">Terms of use</a></li>
+                            <li><a href="#">Terms of conditions</a></li>
+                            <li><a href="#">Privecy policy</a></li>
+                            <li><a href="#">Cookie policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-top-section">
+                        <h5 class="footer-heading">
+                            Newsletter
+                        </h5>
+                        <span class="subs">
+                            Over 25000 people have subscribed
+                        </span>
+    
+                        <form action="#">
+    
+                            <div class="input-wrap">
+                                <input type="text" value="" placeholder="Enter your email">
+                                <button class="form-btn">
+                                    Subscribe
+                                </button>
+                            </div>
+    
+                        </form>
+    
+                        <span>
+                            We don’t sell your email and spam
+                        </span>
+                    </div>
+
+                </div>
+            </div>            
+
+            <div class="footer-bottom">
+                <div class="links-left">
+                    <a href="#">
+                        Privacy & Terms
+                    </a>
+                    <a href="#">
+                        Contact Us
+                    </a>
+                </div>
+
+                <span>
+                    Copyright @ 2022 xpence
+                </span>
+
+                <div class="socials">
+                    <a href="#">
+                        <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.875 0.25H2.125C1.62772 0.25 1.15081 0.447544 0.799175 0.799175C0.447544 1.15081 0.25 1.62772 0.25 2.125L0.25 15.875C0.25 16.3723 0.447544 16.8492 0.799175 17.2008C1.15081 17.5525 1.62772 17.75 2.125 17.75H7.48633V11.8004H5.02539V9H7.48633V6.86562C7.48633 4.43789 8.93164 3.09687 11.1453 3.09687C12.2055 3.09687 13.3141 3.28594 13.3141 3.28594V5.66875H12.0926C10.8891 5.66875 10.5137 6.41562 10.5137 7.18164V9H13.2004L12.7707 11.8004H10.5137V17.75H15.875C16.3723 17.75 16.8492 17.5525 17.2008 17.2008C17.5525 16.8492 17.75 16.3723 17.75 15.875V2.125C17.75 1.62772 17.5525 1.15081 17.2008 0.799175C16.8492 0.447544 16.3723 0.25 15.875 0.25Z" fill="#292830"/>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.875 0.25H2.125C1.08984 0.25 0.25 1.08984 0.25 2.125V15.875C0.25 16.9102 1.08984 17.75 2.125 17.75H15.875C16.9102 17.75 17.75 16.9102 17.75 15.875V2.125C17.75 1.08984 16.9102 0.25 15.875 0.25ZM13.9648 6.45312C13.9727 6.5625 13.9727 6.67578 13.9727 6.78516C13.9727 10.1719 11.3945 14.0742 6.68359 14.0742C5.23047 14.0742 3.88281 13.6523 2.75 12.9258C2.95703 12.9492 3.15625 12.957 3.36719 12.957C4.56641 12.957 5.66797 12.5508 6.54688 11.8633C5.42188 11.8398 4.47656 11.1016 4.15234 10.0859C4.54688 10.1445 4.90234 10.1445 5.30859 10.0391C4.13672 9.80078 3.25781 8.76953 3.25781 7.52344V7.49219C3.59766 7.68359 3.99609 7.80078 4.41406 7.81641C4.06267 7.58267 3.7746 7.26557 3.57557 6.89342C3.37655 6.52127 3.27275 6.10563 3.27344 5.68359C3.27344 5.20703 3.39844 4.76953 3.62109 4.39062C4.88281 5.94531 6.77734 6.96094 8.90234 7.07031C8.53906 5.33203 9.83984 3.92188 11.4023 3.92188C12.1406 3.92188 12.8047 4.23047 13.2734 4.73047C13.8516 4.62109 14.4062 4.40625 14.8984 4.11328C14.707 4.70703 14.3047 5.20703 13.7734 5.52344C14.2891 5.46875 14.7891 5.32422 15.25 5.125C14.9023 5.63672 14.4648 6.08984 13.9648 6.45312Z" fill="#292830"/>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.5 0.25H1.49609C0.808594 0.25 0.25 0.816406 0.25 1.51172V16.4883C0.25 17.1836 0.808594 17.75 1.49609 17.75H16.5C17.1875 17.75 17.75 17.1836 17.75 16.4883V1.51172C17.75 0.816406 17.1875 0.25 16.5 0.25ZM5.53906 15.25H2.94531V6.89844H5.54297V15.25H5.53906ZM4.24219 5.75781C3.41016 5.75781 2.73828 5.08203 2.73828 4.25391C2.73828 3.42578 3.41016 2.75 4.24219 2.75C5.07031 2.75 5.74609 3.42578 5.74609 4.25391C5.74609 5.08594 5.07422 5.75781 4.24219 5.75781ZM15.2617 15.25H12.668V11.1875C12.668 10.2188 12.6484 8.97266 11.3203 8.97266C9.96875 8.97266 9.76172 10.0273 9.76172 11.1172V15.25H7.16797V6.89844H9.65625V8.03906H9.69141C10.0391 7.38281 10.8867 6.69141 12.1484 6.69141C14.7734 6.69141 15.2617 8.42188 15.2617 10.6719V15.25Z" fill="#292830"/>
+                        </svg>                            
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
